@@ -1134,6 +1134,7 @@ span.header-md__minimum {
   -webkit-box-pack: space-betweens;
   -ms-flex-pack: space-betweens;
   justify-content: space-betweens;
+  width: 100%;
 }
 
 .benefits__body .slick-slide {
@@ -1144,6 +1145,10 @@ span.header-md__minimum {
   display: flex;
   /*font-size: 0;*/
   margin: 0 30px;
+}
+
+.benefits .slick-list.draggable {
+  width: 100%;
 }
 
 .benefits-item {
@@ -1172,6 +1177,7 @@ span.header-md__minimum {
   -ms-flex-pack: end;
   justify-content: flex-end;
   min-height: 200px;
+  height: 200px;
   background-color: #ffea00;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
@@ -1231,6 +1237,7 @@ span.header-md__minimum {
   justify-content: center;
   text-align: center;
   min-height: 85px;
+  height: 85px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
